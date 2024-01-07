@@ -2,8 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base{
-  p{
-    @apply text-base
+@layer base {
+  p {
+    @apply text-base;
+  }
+
+  span {
+    @apply text-base;
   }
 }
